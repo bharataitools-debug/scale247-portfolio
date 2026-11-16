@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Scale247 Portfolio</title>
+<style>
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:#0d0d0d;color:#f4f4f4;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+main{max-width:min(1280px,calc((100vh - 96px)*16/9 + 32px));min-width:min(100%,640px);margin:0 auto;padding:16px 16px 72px;display:flex;flex-direction:column;gap:16px}
+.pg{position:relative;margin:0;border-radius:10px;overflow:hidden;background:#1a1a1a;aspect-ratio:16/9;box-shadow:0 6px 28px rgba(0,0,0,.45)}
+.pg img{display:block;width:100%;height:100%}
+.hot{position:absolute;border-radius:999px}
+.hot:hover,.hot:focus-visible{outline:2px solid #ff6a13;outline-offset:2px;background:rgba(255,106,19,.12)}
+.bar{position:fixed;left:50%;bottom:14px;transform:translateX(-50%);display:flex;align-items:center;gap:6px;padding:6px 8px;background:rgba(20,20,20,.92);border:1px solid #2e2e2e;border-radius:999px;backdrop-filter:blur(8px);z-index:5}
+.bar button{width:36px;height:36px;border:0;border-radius:50%;background:#ff6a13;color:#111;font-size:18px;font-weight:700;cursor:pointer;line-height:1}
+.bar button:disabled{background:#3a3a3a;color:#777;cursor:default}
+.bar button:focus-visible{outline:2px solid #fff;outline-offset:2px}
+.bar span{min-width:64px;text-align:center;font-size:13px;font-variant-numeric:tabular-nums;letter-spacing:.04em}
+.prog{position:fixed;top:0;left:0;height:3px;width:0;background:#ff6a13;z-index:6}
+@media (max-width:600px){main{padding:8px 8px 68px;gap:8px}.pg{border-radius:6px}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<div class="prog" id="prog"></div>
+<main>
+<section class="pg" id="p1"><img src="pages/p-01.jpg" width="1920" height="1080" alt="Scale247 Portfolio cover" decoding="async"></section>
+<section class="pg" id="p2"><img src="pages/p-02.jpg" width="1920" height="1080" alt="We don't market, we scale" decoding="async"></section>
+<section class="pg" id="p3"><img src="pages/p-03.jpg" width="1920" height="1080" alt="Follow us on Instagram" loading="lazy" decoding="async"></section>
+<section class="pg" id="p4"><img src="pages/p-04.jpg" width="1920" height="1080" alt="About Scale247: powering growth for 200+ D2C brands" loading="lazy" decoding="async"></section>
+<section class="pg" id="p5"><img src="pages/p-05.jpg" width="1920" height="1080" alt="What we do: growth, built end to end" loading="lazy" decoding="async"></section>
+<section class="pg" id="p6"><img src="pages/p-06.jpg" width="1920" height="1080" alt="Our clients: women's fashion" loading="lazy" decoding="async"></section>
+<section class="pg" id="p7"><img src="pages/p-07.jpg" width="1920" height="1080" alt="Our clients: men's fashion" loading="lazy" decoding="async"></section>
+<section class="pg" id="p8"><img src="pages/p-08.jpg" width="1920" height="1080" alt="Our clients: jewellery" loading="lazy" decoding="async"></section>
+<section class="pg" id="p9"><img src="pages/p-09.jpg" width="1920" height="1080" alt="Our clients: other categories" loading="lazy" decoding="async"></section>
+<section class="pg" id="p10"><img src="pages/p-10.jpg" width="1920" height="1080" alt="Case study: Jimmy Luxury" loading="lazy" decoding="async"><a class="hot" href="https://www.instagram.com/jimmyluxury.in/?hl=en" target="_blank" rel="noopener" aria-label="www.instagram.com" style="left:76.71%;top:56.72%;width:9.00%;height:2.88%"></a></section>
+<section class="pg" id="p11"><img src="pages/p-11.jpg" width="1920" height="1080" alt="Case study: Under Attack" loading="lazy" decoding="async"></section>
+<section class="pg" id="p12"><img src="pages/p-12.jpg" width="1920" height="1080" alt="Case study: Pankh" loading="lazy" decoding="async"></section>
+<section class="pg" id="p13"><img src="pages/p-13.jpg" width="1920" height="1080" alt="Case study: Upakarna" loading="lazy" decoding="async"></section>
+<section class="pg" id="p14"><img src="pages/p-14.jpg" width="1920" height="1080" alt="Case study: GRYTT" loading="lazy" decoding="async"></section>
+<section class="pg" id="p15"><img src="pages/p-15.jpg" width="1920" height="1080" alt="Case study: NOOE" loading="lazy" decoding="async"></section>
+<section class="pg" id="p16"><img src="pages/p-16.jpg" width="1920" height="1080" alt="Static ad creatives that drive results" loading="lazy" decoding="async"></section>
+<section class="pg" id="p17"><img src="pages/p-17.jpg" width="1920" height="1080" alt="Static ad creative samples" loading="lazy" decoding="async"></section>
+<section class="pg" id="p18"><img src="pages/p-18.jpg" width="1920" height="1080" alt="Static ad creative samples" loading="lazy" decoding="async"></section>
+<section class="pg" id="p19"><img src="pages/p-19.jpg" width="1920" height="1080" alt="Static ad creative samples" loading="lazy" decoding="async"></section>
+<section class="pg" id="p20"><img src="pages/p-20.jpg" width="1920" height="1080" alt="Our UGC creative work" loading="lazy" decoding="async"></section>
+<section class="pg" id="p21"><img src="pages/p-21.jpg" width="1920" height="1080" alt="UGC creative samples" loading="lazy" decoding="async"></section>
+<section class="pg" id="p22"><img src="pages/p-22.jpg" width="1920" height="1080" alt="UGC creative samples" loading="lazy" decoding="async"></section>
+<section class="pg" id="p23"><img src="pages/p-23.jpg" width="1920" height="1080" alt="UGC creative samples" loading="lazy" decoding="async"></section>
+<section class="pg" id="p24"><img src="pages/p-24.jpg" width="1920" height="1080" alt="Our web development work" loading="lazy" decoding="async"></section>
+<section class="pg" id="p25"><img src="pages/p-25.jpg" width="1920" height="1080" alt="Web development work: client websites" loading="lazy" decoding="async"><a class="hot" href="https://www.maitrijaipur.com/" target="_blank" rel="noopener" aria-label="www.maitrijaipur.com" style="left:41.18%;top:59.85%;width:17.66%;height:2.96%"></a><a class="hot" href="https://saundh.com/" target="_blank" rel="noopener" aria-label="saundh.com" style="left:11.43%;top:60.10%;width:14.74%;height:3.52%"></a><a class="hot" href="https://www.pratibhasarees.com/" target="_blank" rel="noopener" aria-label="www.pratibhasarees.com" style="left:73.58%;top:59.84%;width:17.03%;height:3.06%"></a><a class="hot" href="https://nijii.in/" target="_blank" rel="noopener" aria-label="nijii.in" style="left:14.01%;top:29.82%;width:9.58%;height:3.52%"></a><a class="hot" href="https://www.shopam.in/?_ab=0&amp;_fd=0&amp;_sc=1" target="_blank" rel="noopener" aria-label="www.shopam.in" style="left:41.30%;top:30.13%;width:17.45%;height:3.43%"></a><a class="hot" href="https://gopivaid.com/" target="_blank" rel="noopener" aria-label="gopivaid.com" style="left:74.58%;top:29.84%;width:14.06%;height:3.24%"></a><a class="hot" href="https://kashmkari.com/" target="_blank" rel="noopener" aria-label="kashmkari.com" style="left:11.15%;top:45.40%;width:15.31%;height:3.24%"></a><a class="hot" href="https://www.gemymaalouf.com/" target="_blank" rel="noopener" aria-label="www.gemymaalouf.com" style="left:41.52%;top:45.36%;width:16.98%;height:2.59%"></a><a class="hot" href="https://wrubens.com/" target="_blank" rel="noopener" aria-label="wrubens.com" style="left:74.53%;top:45.40%;width:14.17%;height:3.24%"></a><a class="hot" href="https://clayco.in/" target="_blank" rel="noopener" aria-label="clayco.in" style="left:13.05%;top:15.48%;width:11.04%;height:3.24%"></a><a class="hot" href="https://nathabit.in/" target="_blank" rel="noopener" aria-label="nathabit.in" style="left:44.07%;top:74.82%;width:12.08%;height:3.24%"></a><a class="hot" href="https://sopa.org/" target="_blank" rel="noopener" aria-label="sopa.org" style="left:75.92%;top:15.55%;width:10.99%;height:3.24%"></a><a class="hot" href="https://theleafbud.com/" target="_blank" rel="noopener" aria-label="theleafbud.com" style="left:11.05%;top:75.19%;width:15.52%;height:3.24%"></a><a class="hot" href="https://thehqdigital.com/" target="_blank" rel="noopener" aria-label="thehqdigital.com" style="left:41.88%;top:15.83%;width:16.25%;height:3.24%"></a><a class="hot" href="https://bezense.com.au/" target="_blank" rel="noopener" aria-label="bezense.com.au" style="left:73.11%;top:74.54%;width:16.25%;height:3.24%"></a></section>
+<section class="pg" id="p26"><img src="pages/p-26.jpg" width="1920" height="1080" alt="Our process: from first conversation to scalable growth" loading="lazy" decoding="async"></section>
+<section class="pg" id="p27"><img src="pages/p-27.jpg" width="1920" height="1080" alt="Thank you" loading="lazy" decoding="async"></section>
+</main>
+<nav class="bar" aria-label="Page navigation">
+<button id="prev" aria-label="Previous page">&#8249;</button>
+<span id="count" aria-live="polite">1 / 27</span>
+<button id="next" aria-label="Next page">&#8250;</button>
+</nav>
+<script>
+(function(){
+var pgs=[].slice.call(document.querySelectorAll('.pg')),n=pgs.length,cur=0;
+var count=document.getElementById('count'),prev=document.getElementById('prev'),next=document.getElementById('next'),prog=document.getElementById('prog');
+function update(){
+  var mid=window.innerHeight/2,best=0,bd=1e9,max0=document.documentElement.scrollHeight-window.innerHeight;
+  for(var i=0;i<n;i++){var r=pgs[i].getBoundingClientRect(),d=Math.abs((r.top+r.bottom)/2-mid);if(d<bd){bd=d;best=i}}
+  if(window.scrollY<=2)best=0;else if(window.scrollY>=max0-2)best=n-1;
+  cur=best;count.textContent=(cur+1)+' / '+n;prev.disabled=cur===0;next.disabled=cur===n-1;
+  var max=document.documentElement.scrollHeight-window.innerHeight;prog.style.width=(max>0?window.scrollY/max*100:0)+'%';
+}
+function go(i){i=Math.max(0,Math.min(n-1,i));pgs[i].scrollIntoView({block:'center'})}
+prev.addEventListener('click',function(){go(cur-1)});next.addEventListener('click',function(){go(cur+1)});
+document.addEventListener('keydown',function(e){
+  if(e.key==='ArrowRight'||e.key==='PageDown'){e.preventDefault();go(cur+1)}
+  else if(e.key==='ArrowLeft'||e.key==='PageUp'){e.preventDefault();go(cur-1)}
+});
+var t=false;window.addEventListener('scroll',function(){if(!t){t=true;requestAnimationFrame(function(){update();t=false})}},{passive:true});
+window.addEventListener('resize',update);update();
+})();
+</script>
+</body>
+</html>
